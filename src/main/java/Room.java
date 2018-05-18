@@ -26,4 +26,9 @@ public abstract class Room {
     public void removeGuest(Guest guest){
         this.guests.remove(guest);
     }
+
+    public ArrayList<Guest> getListOfGuests() {
+       return new ArrayList<>(this.guests);
+        }
+
 }

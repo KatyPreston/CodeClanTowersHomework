@@ -1,20 +1,15 @@
 import java.util.ArrayList;
 
 public class Hotel {
-    private ArrayList<Bedroom> bedrooms;
-    private ArrayList<ConferenceRoom> conferenceRooms;
+    private ArrayList<Room> allRooms;
 
-    public Hotel(ArrayList<Bedroom> bedrooms, ArrayList<ConferenceRoom> conferenceRooms){
-        this.bedrooms = bedrooms;
-        this.conferenceRooms = conferenceRooms;
+    public Hotel(ArrayList<Room> allRooms){
+        this.allRooms = allRooms;
     }
 
-    public int bedroomCount(){
-        return this.bedrooms.size();
-    }
 
-    public int conferenceRoomCount(){
-        return this.conferenceRooms.size();
+    public int roomCount(){
+        return this.allRooms.size();
     }
 
 
@@ -24,5 +19,13 @@ public class Hotel {
 
     public void checkOutGuest(Guest guest, Room room){
         room.removeGuest(guest);
+    }
+
+    public ArrayList<String> listGuests(Room room){
+        ArrayList<String> guestNames = new ArrayList<>();
+        for(Guest guest : room.getListOfGuests()){
+            guestNames.add(guest.getName());
+        }
+        return guestNames;
     }
 }
