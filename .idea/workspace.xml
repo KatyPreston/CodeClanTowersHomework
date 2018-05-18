@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c14b2cc-c446-4a20-8787-0cd771e25ca2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" afterPath="$PROJECT_DIR$/src/main/java/Room.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -127,14 +126,14 @@
       <file leaf-file-name="HotelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HotelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="156">
+              <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -546,7 +545,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest.canGetBedroomCount">
+  <component name="RunManager" selected="JUnit.HotelTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -737,9 +736,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HotelTest.canGetBedroomCount" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HotelTest.canGetConferenceRoomCount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HotelTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HotelTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HotelTest.canGetBedroomCount" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HotelTest.canGetConferenceRoomCount" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ConferenceRoomTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.BedroomTest.canGetNightlyRate" />
       </list>
@@ -762,16 +761,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BedroomTest_canGetNightlyRate - 2018.05.18 at 11h 56m 16s.xml">
-      <configuration name="BedroomTest.canGetNightlyRate" configurationId="JUnit" />
+    <history-entry file="HotelTest - 2018.05.18 at 12h 35m 00s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConferenceRoomTest - 2018.05.18 at 12h 07m 25s.xml">
-      <configuration name="ConferenceRoomTest" configurationId="JUnit" />
+    <history-entry file="HotelTest - 2018.05.18 at 12h 35m 31s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConferenceRoomTest - 2018.05.18 at 12h 07m 50s.xml">
-      <configuration name="ConferenceRoomTest" configurationId="JUnit" />
+    <history-entry file="HotelTest - 2018.05.18 at 12h 36m 04s.xml">
+      <configuration name="HotelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HotelTest - 2018.05.18 at 12h 22m 03s.xml">
+    <history-entry file="HotelTest - 2018.05.18 at 12h 37m 01s.xml">
       <configuration name="HotelTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HotelTest_canGetBedroomCount - 2018.05.18 at 12h 23m 05s.xml">
@@ -1014,14 +1013,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="156">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
           </folding>
         </state>
       </provider>

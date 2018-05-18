@@ -23,18 +23,21 @@ public class HotelTest {
         guests = new ArrayList<>();
         guests.add(guest);
 
-        bedrooms = new ArrayList<>();
         bedroom = new Bedroom(1, guests, 6, BedroomType.SINGLE, 40.00);
+        bedrooms = new ArrayList<>();
         bedrooms.add(bedroom);
 
         guest2 = new Guest("Legolas");
         guest3 = new Guest("Gimli");
+        guests2 = new ArrayList<>();
         guests2.add(guest2);
         guests2.add(guest3);
 
         conferenceRoom = new ConferenceRoom(4, guests2, "War Room", 50.00);
         conferenceRooms = new ArrayList<>();
         conferenceRooms.add(conferenceRoom);
+
+        hotel = new Hotel(bedrooms, conferenceRooms);
     }
 
     @Test
