@@ -34,6 +34,19 @@ public class ConferenceRoomTest {
     }
 
     @Test
+    public void canAddGuest(){
+        Guest guest3 = new Guest("Marge");
+        conferenceRoom.addGuest(guest3);
+        assertEquals(3, conferenceRoom.getGuestCount());
+    }
+
+    @Test
+    public void canRemoveGuest() {
+        conferenceRoom.removeGuest(guest);
+        assertEquals(1, conferenceRoom.getGuestCount());
+    }
+
+    @Test
     public void canGetRoomTitle(){
         assertEquals("Walter Tatley Room", conferenceRoom.getRoomTitle());
     }

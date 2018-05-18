@@ -29,6 +29,19 @@ public class BedroomTest {
     }
 
     @Test
+    public void canAddGuest(){
+        bedroom.addGuest(guest);
+        assertEquals(1, bedroom.getGuestCount());
+    }
+
+    @Test
+    public void canRemoveGuest(){
+        bedroom.addGuest(guest);
+        bedroom.removeGuest(guest);
+        assertEquals(0, bedroom.getGuestCount());
+    }
+
+    @Test
     public void canGetRoomNumber(){
         assertEquals(1, bedroom.getRoomNumber());
     }
