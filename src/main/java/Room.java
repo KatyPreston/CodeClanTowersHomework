@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public abstract class Room {
     private int capacity;
-    private ArrayList guests;
+    private ArrayList<Guest> guests;
 
-    public Room(int capacity, ArrayList guests){
+    public Room(int capacity, ArrayList<Guest> guests){
         this.capacity = capacity;
         this.guests = guests;
     }
@@ -15,7 +15,7 @@ public abstract class Room {
         return this.capacity;
     }
 
-    public ArrayList getGuests(){
-        return this.guests;
+    public int getGuestCount(){
+        return this.guests.size();
     }
 }
